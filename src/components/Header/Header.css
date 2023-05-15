@@ -1,0 +1,26 @@
+header {
+    height: 4 rem;
+    background-color: rgb(53, 38, 68);
+    display: flex;
+    align-items: center;
+    /* space-between:Så vi får de olika texterna utspridda */
+    justify-content: space-between; 
+    /* Padding 0 uppe och 5 på kanterna */
+    padding: 0 5rem;
+}
+
+header > h1 {
+    font-weight: 100;
+}
+
+header h1 > span {
+    font-weight: 400;
+    color: rgb(159, 228, 56);
+
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+
+}
